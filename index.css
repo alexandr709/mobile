@@ -66,4 +66,71 @@
     background-image: url('./img/search.png');
     background-size: cover;
 }
+.main{
+    background-color: #f2f2f2;
+    padding-top: 24px;
+    display: flex;
+    height: 100vh;
+}
+.bid-list{
+    margin-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.bid-item{
+    width: 43.7%;
+    height: 105px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: white;
+}
+.bid-top-cnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bid-circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,149,0,0.15);
+}
+.red{
+    background-color: rgba(200,48,0,0.15);
+}
 
+.bid-count{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9500;
+}
+.red-text{
+    color: #ff3830;
+}
+.bid-title{
+    margin-top: 5px;
+    display: block;
+    font-size: 18px;
+    color: gray;
+    word-wrap: break-word;
+}
+.paper{
+    background-image: url('./img/paper.png');
+    height: 18px;
+    width: 23px;
+}
+.ringing-bell{
+    background-image: url('./img/ringing-bell.png');
+    background-size: contain;
+    width: 23px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
